@@ -1,0 +1,77 @@
+body {
+    background-color: tan;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: darkcyan;
+    padding: 10px;
+    position: fixed;
+    width: 100%; 
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 1.5em;
+    color:white;
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+header {
+    padding-top: 38px;
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/WUS5VgH/breathtaking-landscape-view-of-santa-monica-beach-at-sunset-with-palm-trees-and-pacific-ocean-mountain-in-distance-la-california-1080-hd_nym4pxye__F0000.png");
+    background-size: cover;
+    background-position: middle;
+}
+
+.slide {
+    height: 75vh;
+    background-color:orange;
+    border: 1px solid #ffffff;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div h1 {
+    color: purple;
+    font-size: 2.5em;
+}
+
+#about {
+    background-color: #5a1b74;
+}
+
+#my-profile-pic {
+    background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/power-1560431120.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 100%;
+    width: 70%;
+}
+
+#my-profile-details {
+    width: 60%;
+    height: 100%;
+    background-color: red;
+}
+.post-wrapper{
+    width: 100%;
+    height: 200px;
+    background-color: #ffffff;
+    border: 2px dotted blue;
+    overflow-y: scroll;
+}
+#blog{
+    flex-direction: column;
+    height: auto;
+}
